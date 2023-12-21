@@ -1,0 +1,47 @@
+.clock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* Optional: Add padding for spacing */
+}
+
+.back-button {
+    background-color: #007bff;
+    /* Example background color, choose your color */
+    color: #fff;
+    /* Example text color, choose your color */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    font-size: 1.2em;
+    /* Adjust font size as needed */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Optional: Add border-radius for rounded corners */
+
+}
+
+.play-button {
+    background-color: #0b7722;
+    /* Example background color, choose your color */
+    color: #fff;
+    /* Example text color, choose your color */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    font-size: 1.2em;
+    /* Adjust font size as needed */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Optional: Add border-radius for rounded corners */
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+    /* Example hover background color, adjust as needed */
+}
